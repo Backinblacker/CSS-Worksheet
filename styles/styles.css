@@ -17,7 +17,61 @@ header{
 
 /* This will apply any included styles to the body element */
 body{
-
+    font-family: 'Garamond', monospace;
+    background-color: rgb(17, 192, 192);
 }
 
 /* Create your own classes below! */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #996633;
+}
+    
+li {
+    float: left;
+}
+    
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+li a:hover {
+    background-color: Teal;
+}
+
+.border{
+    border-radius: 25px;
+    border: 1px solid #336699;
+    padding: 20px;
+    width: 400px;
+    text-align: justify;
+}
+
+.colors{
+    background-color: white;
+}
+
+
+.colors-2{
+    background-color: #996633;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2{
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
